@@ -28,13 +28,12 @@ the top apps in my category?"*, or run `/barek-competitor-watch`.
 With npm (Node 18+), from your project folder:
 
 ```bash
-npx barek-competitor-watch             # this project: ./.claude/skills/
-npx barek-competitor-watch --global    # every project: ~/.claude/skills/
-npx barek-competitor-watch --dir .agents/skills   # any other agent's skills folder
+npx github:Barek-Technologies/barek-competitor-watch                       # this project: ./.claude/skills/
+npx github:Barek-Technologies/barek-competitor-watch --global              # every project: ~/.claude/skills/
+npx github:Barek-Technologies/barek-competitor-watch --dir .agents/skills  # any other agent's skills folder
 ```
 
-Run the same command again to update. The same installer also runs straight
-from GitHub: `npx github:Barek-Technologies/barek-competitor-watch` (add `--global` or `--dir` as above).
+Run the same command again to update.
 
 Or with the [skills CLI](https://www.npmjs.com/package/skills), or plain git:
 
