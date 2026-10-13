@@ -83,6 +83,7 @@ Example `themes.mjs` output for two apps:
 | [barek-competitor-watch](https://github.com/Barek-Technologies/barek-competitor-watch) | Competitor study and review mining → what to build next |
 | [barek-aso](https://github.com/Barek-Technologies/barek-aso) | Store name, subtitle, keywords and descriptions, researched against what ranks |
 | [appstore-screenshots](https://github.com/Barek-Technologies/appstore-screenshots) | Highest-converting screens, captioned and rendered at exact store sizes |
+| [barek-landing](https://github.com/Barek-Technologies/barek-landing) | Calm app landing page: centred pill nav, gradient glow, one phone |
 
 They share one research client (`scripts/appstore.mjs`) and hand off to each
 other: the competitor study feeds the copy and the screenshot story.
