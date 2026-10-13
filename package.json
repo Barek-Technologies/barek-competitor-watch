@@ -1,0 +1,38 @@
+{
+  "name": "barek-competitor-watch",
+  "version": "1.0.0",
+  "description": "Agent skill: study competing apps on the App Store, mine their low-star reviews for what customers want, and turn it into a ranked backlog",
+  "type": "module",
+  "bin": {
+    "barek-competitor-watch": "bin/install.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "references",
+    "scripts",
+    "bin"
+  ],
+  "keywords": [
+    "claude-code",
+    "agent-skills",
+    "claude-skill",
+    "competitor-analysis",
+    "app-store",
+    "reviews",
+    "product-research",
+    "market-research"
+  ],
+  "homepage": "https://github.com/Barek-Technologies/barek-competitor-watch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barek-Technologies/barek-competitor-watch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Barek-Technologies/barek-competitor-watch/issues"
+  },
+  "author": "Barek Technologies Limited",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
